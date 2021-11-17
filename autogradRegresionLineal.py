@@ -66,4 +66,4 @@ for ii in range(8000):
 print(w.data.squeeze().item(), b.data.squeeze().item)
 # link Google Colab: https://colab.research.google.com/drive/1-2P9E2AjZkcoG5AE4cU3-5_laEMNoxkj?usp=sharing
 # Tomado y adaptado por Maricio Pacheco
-# @pachperdev
+# GitGub: pachperdev
