@@ -1,6 +1,7 @@
 # Regresion lineal con Autograd
 # Este algorimo tiene la fucionalidad de generar datos aleatorios y predecir el comportamento futuro para la datos de entrada.
 # los datos aleatorios se representan con puntos y el el programa hace un calculo de la aproximacion estimada.
+#link Google Colab: https://colab.research.google.com/drive/1-2P9E2AjZkcoG5AE4cU3-5_laEMNoxkj?usp=sharing
 # importamos librerias(Autograd, Matplot, Pytorch, etc)
 from __future__ import print_function
 import torch as t
@@ -63,3 +64,6 @@ for ii in range(8000):
         plt.show()
         plt.pause(0.5)
 print(w.data.squeeze().item(), b.data.squeeze().item)
+# link Google Colab: https://colab.research.google.com/drive/1-2P9E2AjZkcoG5AE4cU3-5_laEMNoxkj?usp=sharing
+# Tomado y adaptado por Maricio Pacheco
+# @pachperdev
