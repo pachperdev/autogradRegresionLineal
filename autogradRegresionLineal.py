@@ -65,5 +65,5 @@ for ii in range(8000):
         plt.pause(0.5)
 print(w.data.squeeze().item(), b.data.squeeze().item)
 # link Google Colab: https://colab.research.google.com/drive/1-2P9E2AjZkcoG5AE4cU3-5_laEMNoxkj?usp=sharing
-# Tomado y adaptado por Maricio Pacheco
+# Tomado y adaptado por Mauricio Pacheco
 # GitGub: pachperdev
