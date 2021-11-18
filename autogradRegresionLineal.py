@@ -15,8 +15,8 @@ t.manual_seed(1000)  # numero aleatorio de maquinas ejecutandose
 
 def get_fake_data(batch_size=8):  # datos fake
     # Generar datos aleatorios
-    x = t.rand(batch_size, 1) * 15
-    y = x * 2 + (1 + t.randn(batch_size, 1)) * 2
+    x = t.rand(batch_size, 1) * 20
+    y = x * 3 + (1 + t.randn(batch_size, 1)) * 2
     return x, y
 
 
