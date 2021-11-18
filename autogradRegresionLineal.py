@@ -22,8 +22,8 @@ def get_fake_data(batch_size=8):  # datos fake
 
 # Grafico de la funcion generada
 x, y = get_fake_data()
-plt.scatter(x.squeeze().numpy(), y.squeeze().numpy())
-plt.show()
+plt.scatter(x.squeeze().numpy(), y.squeeze().numpy()) #traza diagramas de dispercion de datos
+plt.show() #grafica
 
 # Parámetros iniciales aleatorios
 w = V(t.rand(1, 1), requires_grad=True)
@@ -39,7 +39,7 @@ for ii in range(8000):
     loss = 0.5 * (y_pred - y) ** 2
     loss = loss.sum()
 
-    loss.backward()
+    loss.backward() #.backward()el tensor de error
 
     w.data.sub_(lr * w.grad.data)
     b.data.sub_(lr * b.grad.data)
